@@ -14,9 +14,9 @@
 
 from setuptools import setup
 
-# Best practice: package name should be prefixed with `newrelic.extensions.`
+# Best practice: package name should be prefixed with `newrelic_extension_`
 INSTRUMENTED_PACKAGE = "sampleproject"
-PACKAGE_NAME = "newrelic.extensions.{}".format(INSTRUMENTED_PACKAGE)
+PACKAGE_NAME = "newrelic_extension_{}".format(INSTRUMENTED_PACKAGE)
 HOOKS = [
     # package_to_intercept = instrumentation_hook
     "sample = {}.example:instrument".format(PACKAGE_NAME)

@@ -44,7 +44,7 @@ In the application, the extension can be pip installed.
 
 .. code-block:: sh
 
-    pip install newrelic.extensions.sampleproject
+    pip install newrelic_extension_sampleproject
 
 License
 -------
